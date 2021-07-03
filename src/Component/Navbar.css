@@ -1,0 +1,289 @@
+body{
+    background-color: #e0e0e0;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 90px !important;
+    overflow: hidden;
+    display: flex;
+    justify-content: start ; 
+    align-items: center;
+    
+
+}
+
+.menu-bars{
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-bottom: .6rem;
+    background: none;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+.nav-menu{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 280vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+
+
+}
+
+.nav-menu.active{
+    left: 0 ;
+    transition: 350ms;
+}
+
+.nav-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+
+}
+
+.nav-text a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    transition:0.4s ;
+
+}
+
+.nav-text a:hover{
+    background-color: rgb(218, 218, 218);
+    color: teal;
+}
+
+.mainIcon{
+    padding-right: 0.7rem;
+    font-size: 1.5rem;
+    margin-right: 1rrem;
+    color: rgb(144, 141, 141);
+}
+
+.nav-menu-items{
+    width: 100%;
+}
+
+.navbar-toggle{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.span{
+    margin-left: 16px ;
+
+}
+
+.nav-menu-items{
+   scroll-behavior: smooth;
+}
+
+.searchBar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.searchBar input{
+    padding: 1rem;
+    border: none;
+    width: 150px;
+    height: 10px;
+
+
+
+}
+
+.adminIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.rightIcons{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+
+}
+
+.rightIcon{
+    font-size: 2rem;
+    margin: 0 0 32px 32px;
+    color: rgb(124, 128, 128);
+    cursor: pointer;
+    
+}
+
+
+.add-btn{
+    background-color: rgb(96, 41, 246);
+    color: whitesmoke;
+    
+}
+
+/* chart styling */
+
+.chart1{
+    background-color: white;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.singleChart{
+    
+    background-color: white;
+    height: 200px;
+    border-radius: 10px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 28px !important;
+
+}
+
+.column1{
+    width:40% ; 
+    margin: 5%;
+
+}
+
+.column2{
+    width:50% ; 
+}
+
+.lineChartParent{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(105, 105, 105, 0.226);
+}
+
+.lineChartClass{
+    width: 90%;
+    height: 90%;
+}
+
+
+.parentMap{
+    border-radius: 20px;
+}
+
+.tableClass{
+    background-color: #FFFFFF;
+    border-radius: 20px ;
+    height: 405px;
+    
+    
+}
+
+
+
+.table{
+    padding-bottom: 50px !important;
+}
+
+
+.parentPie{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+
+}
+.pieChartClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+
+.footerClass{
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .searchBar{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .searchBar input{
+        padding: 0.5rem;
+        border: none;
+        width: 90px;
+        height: 10px;
+    
+    
+    
+}
+
+    .rightIcons{
+        visibility: hidden;
+
+}
+
+.mapColumn{
+    margin-top: 10px;
+}
+
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .singleChart{
+        margin-left: 0 !important;
+    }
+
+    .footerClass{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
